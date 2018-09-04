@@ -1,0 +1,7 @@
+.home-hero-container {
+  height: 625px;
+  background-image: url('https://image.ibb.co/ihiZQK/hero_car.jpg');
+  background-position: 40% bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

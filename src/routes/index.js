@@ -4,7 +4,15 @@ import './routes.css';
 
 // Routes
 import Header from '../components/Header';
-import Home from '../components/Home/Home';
+import Footer from '../components/Footer';
+import Home from '../components/home/Home';
+
+// FontAwesome
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
+ 
+library.add(fab, faCheckSquare, faCoffee)
 
 // import Rental from './Rental';
 
@@ -37,6 +45,7 @@ class Routes extends Component {
             <Route path="/" component={Home} />
           </Switch>
         </div>
+        <Route path="/:site?" component={Footer} />
       </div>
     );
 

@@ -1,0 +1,25 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  justify-self: center;
+  border-radius: 2px;
+}
+
+  /* OVERRIDE */
+  .button, .button:hover, .button:focus, .button:active {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  /* COLORS */
+  .button.blue {
+    background: #1f26e4;
+    color: white;
+  }
+
+  /* SIZES */
+  .button.md {
+    padding: 0.5rem 1.2rem;
+  }

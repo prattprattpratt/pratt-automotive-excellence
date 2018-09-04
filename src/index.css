@@ -1,5 +1,49 @@
+html {
+  box-sizing: border-box;
+}
+
+html * {
+  box-sizing: inherit;
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+
+  color: #211f1c;
 }
+
+h1, h2 {
+  font-family: 'Merriweather', serif;
+}
+
+h3, p, a {
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+/* UTILITIES */
+
+  /* color */
+  .white-text { color: white; }
+  .gray-text { color: #bebebe; }
+
+  /* spacing */
+  .pt-2 { padding-top: 0.5rem; }
+  .pt-3 { padding-top: 1rem; }
+
+  /* display */
+  .d-flex { display: flex; }
+  .flex-column { flex-direction: column; }
+  .align-items-center { align-items: center; }
+  .justify-content-center { justify-content: center; }
+  .justify-content-between { justify-content: space-between; }
+
+/*
+  text: #211f1c;
+  red:  #e41f26;
+  blue: #1f26e4;
+*/
