@@ -1,6 +1,5 @@
 .home-container > .one-stop-banner {
   height: 110px;
-  padding: 1rem 4rem;
 }
 
   .one-stop-banner > .logo {
@@ -9,4 +8,13 @@
 
 .home-container > .blah {
   height: 110vh;
+}
+
+.value > svg.svg-inline--fa {
+  width: 4rem;
+  height: 4rem;
+}
+
+.home-container .home-quote {
+  font-family: 'Satisfy', cursive;
 }
